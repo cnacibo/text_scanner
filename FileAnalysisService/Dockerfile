@@ -1,7 +1,6 @@
 FROM python:3.10-slim
 
-LABEL authors="Acer"
-LABEL description="File Analysis Service Dockerfile"
+LABEL description="FileAnalysisService Dockerfile"
 
 WORKDIR /app
 
