@@ -5,7 +5,7 @@ services:
     image: postgres:14
     environment:
       POSTGRES_USER: storing_user
-      POSTGRES_PASSWORD: storing_pass  # Пароль для суперпользователя
+      POSTGRES_PASSWORD: storing_pass 
       POSTGRES_DB: files
       POSTGRES_MULTIPLE_DATABASES: "files, analysis"
     volumes:
